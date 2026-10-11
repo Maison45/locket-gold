@@ -1,10 +1,3 @@
-from fastapi import FastAPI
-app = FastAPI(cc) 
-
-@app.get("/")
-def read_root():
-    return {"message": "API hoạt động thành công!"}
-
 
 
   
